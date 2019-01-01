@@ -1,0 +1,83 @@
+.maxw{
+    max-width: 1170px;
+    margin: 0 auto
+}
+
+.cuisinefil {
+    margin-top: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    float: left;
+    padding: 2px;
+    position: relative;
+    width: 100%;
+
+}
+.res_cuisinefil_head {
+
+    background-color: #ffffff;
+    color: #1e1e1e;
+    float: left;
+    font: 17px GothamRoundedMedium;
+    padding: 15px 15px 20px 15px;
+    width: 100%;
+
+}
+.cuisinefil_list {
+
+    float: left;
+    width: 100%;
+    padding: 0px 15px;
+    
+}
+.cuisinefil_list li a.active {
+
+    color: #ff6300;
+
+}
+.cuisinefil_list li a {
+
+    color: #323232;
+    cursor: pointer;
+    float: left;
+    font: 13px GothamRounded_Book;
+    margin-bottom: 25px;
+    width: 100%;
+
+}
+.cuisinefil_list li{
+    list-style: none
+}
+.searchMenudet {
+    border: 1px solid #eeeeee;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 0;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+.searchMenudet input {
+    background-color: #ffffff;
+    border: 0 none;
+    display: inline-block;
+    font: 15px GothamRounded_Book;
+    padding: 15px 20px;
+    width: 100%;
+}
+.searchMenudet a {
+    background: #ff6300 url("../../assets/images/search-icn.png") no-repeat scroll center center;
+    bottom: 0;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+}
+.searchMenudet a:hover{
+    background: #e95a02 url("../../assets/images/search-icn.png") no-repeat scroll center center
+}
+.fos_menu_item{
+    margin-top: 15px
+}

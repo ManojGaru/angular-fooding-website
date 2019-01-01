@@ -1,0 +1,85 @@
+<app-innerheader></app-innerheader>
+<section class="order-inner">
+        <div class="container-fluid">
+          <div class="maxw">
+            <div class="row">
+            <div class="col-md-8 col-sm-8">
+                <div class="res-left">
+                        <div class="row">
+                                <div class="col-md-3"><img src="assets/images/3655005441544627097.png" class="img-thumbnail img-fluid edit-img" alt=""/></div>
+                                <div class="col-md-9">
+                                  <div class="second-wrap-sec pul-left">
+                                    <div class="restaurant-searchname">
+                                        <span class="headrestname pul-right">Pizza Hut</span>
+                                    </div>
+                                    <div class="headeraddr"> 11th street, Almería, 04001  </div>
+                                    <div class="headercuis"> Indian </div>
+                                    <div class="col-xs-12 no-padding hidden-xs">
+                                        <span class="restaurant-block">
+                                            <div class="restaurant-block__status-open">
+                                                <span class="clock-new">
+                                                    <i class="fa fa-clock-o"></i>
+                                                    Delivery in 50</span>
+                                            </div>
+                                        </span> 
+                                         <span class="min-orde-ntr-block text-right">
+                                            <div class="restaurant-new-it">
+                                                <span class="bike-color-new">
+                                                    <i class="fa fa-motorcycle"></i>
+                                                    Min. order € 0</span>
+                                            </div>
+                                        </span> 
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <mat-tab-group>
+                                    <mat-tab label="MENU">  <app-menu></app-menu> </mat-tab>
+                                    <mat-tab label="INFO"> <app-info></app-info> </mat-tab>
+                                    <mat-tab label="REVIEWS"> <app-reviews></app-reviews> </mat-tab>
+                                    <mat-tab label="OFFERS"> <app-offers></app-offers> </mat-tab>
+                                    <mat-tab label="BOOK A TABLE"> <app-book-table></app-book-table> </mat-tab>
+                            </mat-tab-group>
+                     </div>                        
+                                  <!-- <mat-checkbox>Check me!</mat-checkbox> -->
+                        </div>
+        
+        <div class="col-md-4 col-sm-4">
+        <div id="cart_wrapper" class="cart-wrapper" >
+            <form>
+                <div class="cart-innerwrapper">
+                    <div class="cart-hide-wrap cart-box">
+                        <div class="col-md-12 text-left warehouse_head">Your Cart </div>
+                    </div>
+                    <div class="clr"></div>
+                    <div class="edit-redio">
+                    <mat-radio-group  #radioGroup="matRadioGroup">
+                            <mat-radio-button value="option 1">PickUp</mat-radio-button>
+                            <mat-radio-button value="option 2">Delivery</mat-radio-button>
+                   </mat-radio-group>
+                    </div>
+                    <div id="cartDetails">
+                                    <div class="cart-wrapper">
+                                <div class="cart-innerwrapper">
+                                    <div class="cart-box">
+                                        <div class="col-md-12 text-left warehouse_head">Your Cart Empty                                                    </div>
+                                    </div>
+                                    <div class="no-cart">
+                                        <div class="no-cart-image text-center"><img src="assets/images/cartitem.png"></div>
+                                        <div class="no-cart-text">No Item(s) Added</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+
+

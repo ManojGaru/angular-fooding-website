@@ -1,0 +1,121 @@
+.maxw{
+    max-width: 700px;
+    margin: 0 auto;
+}
+// .header{
+//     box-shadow: 1px 1px 8px #888888;
+// }
+.head-text{
+}
+.head-text h1{
+    text-align: center;
+    padding: 20px 0px;
+    background: #363636;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+
+}
+.head-text p{
+    padding-bottom: 25px
+}
+.signup{
+    padding-top: 100px;
+    padding-bottom: 80px
+}
+#login-name{
+    
+    border-bottom-style: ridge;
+    color:white;
+    
+    }
+#login{
+    background-color:rgba(13,13,13,0.2);
+    min-height:700px;
+    padding: 40px 80px 40px 80px;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+.form-control{
+    border-radius: 5px
+}
+.user{
+font-size: 18px;
+color: #000;
+}
+#text1{
+    border-radius: 0;
+    height: 40px;
+}
+#text2{
+
+    border-radius: 0;
+    height: 40px;
+}
+
+.btn{
+    width: 50%;
+    float: left;
+    height: 40px;
+    font-size: 18px;
+}
+
+.label_001{
+
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+.signup-footer {
+    background: #4aa3df none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    display: block !important;
+    padding: 6px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px
+    
+}
+.signup-footer:hover{
+    background: #3090d1
+}
+.btn[_ngcontent-c2] {
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600
+
+}
+.signup-rsbtn {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.signup-rsbtn:hover{
+    background-color:#ba1d2c;
+    border-color: #ba1d2c;
+}
+.mat-form-field{
+    width: 100%!important
+}
+.sign-up{
+    position: relative
+}
+.sign-up h2{
+    text-align: center
+}
+.sign-up h2::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    background: #ff6300;
+    width: 40%;
+    height: 2px;
+    margin: 0 auto 10px;
+    left: 102px;
+}
+.ng-star-inserted [_nghost-c6] {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px!important;
+}

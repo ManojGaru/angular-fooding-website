@@ -1,0 +1,111 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$food-delivery-primary: mat-palette($mat-indigo);
+$food-delivery-accent: mat-palette($mat-red, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$food-delivery-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$food-delivery-theme: mat-light-theme($food-delivery-primary, $food-delivery-accent, $food-delivery-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($food-delivery-theme);
+
+@font-face {
+    font-family:'GothamRounded_Bold';
+    src: url('assets/fonts/GothamRounded-Bold_gdi.eot');
+    src: url('assets/fonts/GothamRounded-Bold_gdid41d.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/GothamRounded-Bold_gdi.woff') format('woff'),
+    url('assets/fonts/GothamRounded-Bold_gdi.ttf') format('truetype'),
+    url('assets/fonts/GothamRounded-Bold_gdi.svg#GothamRounded-Bold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+@font-face {
+    font-family:'GothamRounded_Book';
+    src: url('assets/fonts/GothamRounded-Book_gdi.eot');
+    src: url('assets/fonts/GothamRounded-Book_gdid41d.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/GothamRounded-Book_gdi.woff') format('woff'),
+    url('assets/fonts/GothamRounded-Book_gdi.ttf') format('truetype'),
+    url('assets/fonts/GothamRounded-Book_gdi.svg#GothamRounded-Book') format('svg');
+
+}
+@font-face {
+    font-family:'GothamRndLight';
+    src: url('assets/fonts/GothamRnd-Light.otf') format('opentype');
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family:'GothamRoundedMedium';
+    src: url('assets/fonts/GothamRounded-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-stretch: normal;
+}
+html {
+    font-family: "GothamRounded_Book";
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: "GothamRounded_Book";
+    font-size: 13px;
+}
+a{cursor: pointer;}
+a:hover {text-decoration: none;}
+a:focus{outline: 0!important; text-decoration: none;}
+button:focus {outline: 0!important;}
+:focus {outline: -webkit-focus-ring-color auto 0px !important;}
+// .maxw{
+//     max-width:1170px;
+//     margin: 0 auto;
+// }
+img {max-width: 100%;}
+.modal-dialog {
+    max-width: 450px!important;
+    margin: 1.75rem auto;
+}
+.modal-content{
+    margin-top:150px
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-tabs{
+    background-color: white;
+}
+
+html, body { height: 100%; }
+* { margin: 0;padding: 0}
+.mat-dialog-container{
+    width: 430px!important
+}
+.mat-tab-label {
+    min-width: 140px!important;
+}
+.ng-star-inserted [_nghost-c6] {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}

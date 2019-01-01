@@ -1,0 +1,53 @@
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  doc-timepicker{
+    float: right;
+    margin-top: -41px;
+    margin-right: 70px;
+  }
+  .maxw{
+    width: 80%;
+    margin: 0 auto
+  }
+  .example-full-width{
+    width: 100%;
+  }
+  .edt-count{
+    margin-top: 15px!important;
+    margin-right: 0px;
+    
+  }
+  doc-timepicker[_ngcontent-c9] {
+    float: right;
+    margin-top: -41px;
+    margin-right: 0px!important;
+}
+ .clr{
+    clear: both
+ }
+ .table-in h2{
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px
+ }

@@ -1,0 +1,258 @@
+.maxw{
+    max-width: 1170px;
+    margin:0 auto;
+}
+.banner {
+    float:left;
+    background:url("../../assets/images/banner1.jpg") no-repeat scroll center center / cover;
+    padding:250px 0px;
+    position:relative;
+    width: 100%;
+    display: table; 
+}
+.banner:after {
+    position: absolute;background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    content:"";
+    top:0;left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.banner-content {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+}
+.fi-head {
+    color: #ffffff;
+    font: bold 30px GothamRoundedMedium;
+    letter-spacing: 1px;
+    margin: 40px 0 0 !important;
+    opacity: 0.8;
+    text-align: center;
+    
+}
+.find-rest {
+    float: left;
+    background: #ff6300 none repeat scroll 0 0;
+    border: 0 none !important;
+    border-radius: 5px !important;
+    color: #ffffff;
+    display: block;
+    font: 14px GothamRoundedMedium;
+    line-height: normal;
+    height: 46px;
+    line-height: 31px !important;
+    text-align: center;
+}
+.find-rest:hover {
+    color: #fff;
+    background-color: #e55b03;
+}
+.bnr-cen{
+    padding-bottom: 10px;
+}
+
+
+// start how it works
+.banner-text {color: #282C3F;font: bold 28px GothamRoundedMedium;letter-spacing: 1px;margin: 30px 0 0 !important;opacity: 0.8;text-align: center;}
+.howitworks {
+    float: left;
+    background:#fff;
+    padding: 48px 0 50px;
+    width: 100%;
+}
+.howitworks span img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px
+}
+.howitworks h2 {
+    color: #323232;
+    float: left;
+    font: 22px GothamRoundedMedium;
+    margin: 0 0 43px;
+    text-align: center;
+    width: 100%;
+}
+.panel-title {
+    color: #000000;
+    float: left;
+    font: 15px GothamRoundedMedium;
+    margin: 0 0 17px;
+    text-align: center;
+    width: 100%;
+}
+.pannel-p {color: #646464;
+    float: left;
+    font: 14px GothamRounded_Book;
+    text-align: center;
+    width: 100%;}
+.pannel-image {float: left; width: 100%;text-align: center;margin-bottom: 20px;}
+.pannel-image img{display: inline-block;max-width: 100%;max-height: 50px;}
+// end how it works
+
+.clr{
+    clear: both
+}
+
+// start customar app
+
+.cus-text{
+    max-width: 930px;
+    margin: 0 auto;
+}
+.customer-app-new {
+    padding-top: 40px!important;
+}
+.app_title {
+    float: left;
+    width: 100%;
+    color: #686b78;
+    font: 20px "GothamRoundedMedium";
+    padding-top: 100px;
+}
+.foor-ord-head {
+    color: #000000;
+    float: left;
+    font-family: GothamRoundedMedium;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    width: 100%;
+    padding-top: 30px
+}
+.ord-del-cont {
+    color: #646464;
+    float: left;
+    font-family: GothamRounded_Book;
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 100%;
+}
+.live-tracking {
+    float: left;
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 80px;
+}
+.down-app {
+    float: left;
+    width: 100%;
+    padding-bottom: 40px
+}
+.down-app a {
+    display: inline-block;
+    margin-right: 10px;
+}
+// end customar app
+
+// start getstarted
+
+.get-start {
+    background: #fff none repeat scroll 0 0;
+    color: #000000;
+    padding: 100px 0;
+    width: 100%;
+}
+.add-your-resta {
+    color: #323232;
+    font: 22px GothamRoundedMedium;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.add-para {
+    font-family: GothamRounded_Book;
+    font-size: 17px;
+    margin: 20px 0 25px;
+    text-align: center;
+    width: 100%;
+}
+.signuptext {
+    background: #ff6300 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font: 15px GothamRoundedMedium;
+    padding: 10px 20px;
+}
+.signuptext:hover {
+    color: #fff;
+    background-color: #e55b03;
+}
+a:hover {
+    text-decoration: none;
+}
+
+// end getstarted
+
+// start food tab section
+.food-details{
+    background:#ddd;
+    padding: 48px 0 50px;
+}
+.fd-d1{
+    
+    padding: 10%;
+}
+.fd-d1 h4{
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-muted{
+    font-size: 14px;
+    color: #4d4d4d
+}
+.fd-d1 .subheading{
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: normal
+}
+.fd-d1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: left;
+}
+.fd-d1{
+    
+    background: #fff;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+.fd-d1 img{
+    width: 100%;
+}
+.edit-btn{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #ff6300;
+    border-color: #ff6300;
+}
+.edit-btn:hover {
+    color: #fff;
+    background-color: #e55b03;
+}
+.how-img img{
+    border-radius: 5px
+}
+
+// end food tab section
+
+// .ngx-dropdown-container[_ngcontent-c4] .ngx-dropdown-button[_ngcontent-c4] {
+//     padding-bottom: 10px
+// }
+.ngx-dropdown-container[_ngcontent-c4] button[_ngcontent-c4] span[_ngcontent-c4] {
+    vertical-align: middle;
+    float: left;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}

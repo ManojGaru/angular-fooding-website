@@ -1,0 +1,196 @@
+<app-header></app-header>
+<section class="banner">
+    <div class="banner-content">
+      <div class="container-fluid">
+        <div class="maxw">
+            <div class="row justify-content-md-center">
+              <div class="col-md-8 justify-content-md-center">
+                <div class="row justify-content-md-center">
+                <div class="col-md-4 col-sm-4 col-xs-12 bnr-cen">
+                        <ngx-select-dropdown
+                        [multiple]="true" 
+                        [(value)]="dataModel" 
+                        [config]="config" 
+                        [options]="dropdownOptions">
+                        </ngx-select-dropdown>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 bnr-cen">
+                <ngx-select-dropdown 
+                [multiple]="true" 
+                [(value)]="dataModel" 
+                [config]="config" 
+                [options]="dropdownOptions">
+                </ngx-select-dropdown>
+
+
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 bnr-cen">
+                    <button type="button" (click)="goToPlaceOrder()" class="btn btn-primary btn-lg find-rest">FIND RESTAURANT</button>
+                </div>
+              </div>
+            </div>
+            </div>
+          <div class="row justify-content-md-center">
+          <h2 class="fi-head">We deliver to your doorstep</h2> 
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- start how it works -->
+
+<section id="hiw_section" class="howitworks hidden-xs">
+  <div class="container-fluid">
+    <div class="maxw">
+      <div class="row">
+        <h2>HOW IT WORKS</h2>
+        <div class="col-md-3 col-sm-3 col-xs-12 pul-right">
+            <div class="pannel-image home-searchlogo">
+            </div>
+            <span><img src="assets/images/1.png"></span>
+            <h3 class="panel-title">DISCOVER</h3>
+            <p class="pannel-p">Find Your Local restaurants</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 pul-right">
+            <div class="pannel-image home-chooseres">
+            </div>
+            <span><img src="assets/images/2.png"></span>
+            <h3 class="panel-title">ADD YOUR MENU</h3>
+            <p class="pannel-p">Choose Your favourite Menu</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 pul-right">
+            <div class="pannel-image home-placeholder">
+            </div>
+            <span><img src="assets/images/3.png"></span>
+            <h3 class="panel-title">PLACE ORDER</h3>
+            <p class="pannel-p">And Pay by Card Or Cash</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 pul-right">
+            <div class="pannel-image home-delivery">
+            </div>
+            <span><img src="assets/images/4.png"></span>
+            <h3 class="panel-title">GET DELIVERED</h3>
+            <p class="pannel-p">And enjoy with your food</p>
+        </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- end how it works -->
+
+<div class="clr"></div>
+
+<!-- mobile section -->
+
+<section class="live-tracking hidden-xs">
+    <div class="container-fluid">
+      <div class="cus-text">
+      <div class="row">
+                   
+                <div class="col-sm-5 col-md-6 col-lg-5 ">
+                    <div class="app_title customer-app-new">CUSTOMER APP</div>
+                    <h1 class="foor-ord-head">Live Order Tracking <br> for your customers</h1>
+                    <p class="ord-del-cont">Through our system, Customer can <br> track driver location instanly for their orders</p>
+                    <div class="down-app">
+                        <a class="sprite-androidapp" href="#"><img src="assets/images/androapp.png"></a>
+                        <a class="sprite-iosapp" href="#"><img src="assets/images/iosapp.png"></a>
+                    </div>
+            </div>
+                <div class="col-sm-7 col-md-6 col-lg-7 text-center">
+                    <img src="assets/images/mobile-4.png">
+                </div>
+           
+            
+      </div>
+    </div>
+    </div>
+</section>
+
+  <!-- end mobile section -->
+
+  <div class="clr"></div>
+
+<!-- start getstarted -->
+
+  <section class="get-start hidden-xs">
+      <div class="container-fluid">
+        <div class="maxw">
+        <div class="row">
+          <div class="col-md-12">
+              <h5 class="add-your-resta">GET STARTED</h5>
+              <p class="add-para">Join the thousands of other restaurants who benefit <br> from having their menus on Food</p>
+          </div>
+          <div class="col-md-12 text-center">
+              <!-- <a class="signuptext" href="restaurantSignup.html">SIGNUP NOW</a> -->
+              <a class="signuptext" href="#">SIGNUP NOW</a>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- end getstarted -->
+
+
+  <!-- start food tab section -->
+
+
+  <div class="food-details">
+      <div class="container-fluid">
+          <div class="maxw">
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="fd-d1">
+                      <div class="row">
+                              <div class="col-md-5 col-sm-12 col-xs-12 how-img">
+                                  <img src="assets/images/img1.png" class="img-rounded img-fluid" alt=""/>
+                              </div>
+                              <div class="col-md-7 col-sm-12">
+                              <h4>Eat Express </h4>
+                              <h4 class="subheading"> Indian,Chinese</h4>
+                              <p class="text-muted">Delivery In 50 Mins </p>
+                              <span><button class="btn btn-primary edit-btn" type="submit">Order now</button></span>
+                              </div>
+                          </div>
+                      </div>
+                </div> 
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="fd-d1">
+                      <div class="row">
+                              <div class="col-md-5 col-sm-12 col-xs-12 how-img">
+                                  <img src="assets/images/img1.png" class="img-rounded img-fluid" alt=""/>
+                              </div>
+                              <div class="col-md-7 col-sm-12">
+                              <h4>Pizza Hut </h4>
+                              <h4 class="subheading"> Indian</h4>
+                              <p class="text-muted">Delivery In 45 Mins </p>
+                              <span><button class="btn btn-primary edit-btn" (click)="gotoOrderDetails()">Order now</button></span>
+                              </div>
+                          </div>
+                      </div>
+                </div> 
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="fd-d1">
+                              <div class="row">
+                                      <div class="col-md-5 col-sm-12 col-xs-12 how-img">
+                                        <img src="assets/images/img1.png" class="img-rounded img-fluid" alt=""/>
+                                      </div>
+                                      <div class="col-md-7 col-sm-12">
+                                      <h4>RR Restaurant  </h4>
+                                      <h4 class="subheading"> Indian</h4>
+                                      <p class="text-muted">Delivery In 45 Mins </p>
+                                      <span><button class="btn btn-primary edit-btn" type="submit">Order now</button></span>
+                                      </div>
+                                  </div>
+                              </div>
+                        </div> 
+                     </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+  <!-- end food tab section -->

@@ -1,0 +1,105 @@
+// .maxw{
+//     max-width: 400px;
+//     margin: 0 auto
+// }
+// .login{
+//     padding-top: 20px;
+//     padding-bottom: 20px
+// }
+// .white{
+//     color:#000;
+//     background-color:#fff;
+// }
+// .checkbox span{
+//     float: right;
+// }
+// .checkbox span a{
+//     color: #ff6300;
+// }
+// .login-text{
+//     padding-top: 30px;
+    
+// }
+// .login-text h3{
+//     text-align: center;
+//     font-size: 15px;
+// }
+// .login-text h3 a{
+//     color: #ff6300;
+// }
+// .edit-btn{
+//     margin-top: 25px
+// }
+// .signup-footer  {
+//     background: #4aa3df none repeat scroll 0 0;
+//     border: medium none;
+//     color: #ffffff;
+//     padding: 13px 25px;
+// }
+// .panel-title{
+//     text-align: center;
+
+// }
+// .panel-title{
+//     text-align: center;
+//     padding: 20px 0px;
+//     background: #545454;
+//     color: #fff;
+//     border-radius: 5px 5px 0 0;
+
+// }
+// .panel-body{
+//     padding-bottom: 15px;
+//     border-radius: 0 0 5px 5px;
+//     padding-top: 40px
+// }
+
+
+
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+  }
+
+  .mat-form-field {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .error {
+    padding: 16px;
+    width: 300px;
+    color: white;
+    background-color: red;
+  }
+
+  .button {
+    display: flex;
+    justify-content: flex-end;
+  }
+.sign-in{
+    position: relative
+}
+.sign-in h2{
+    text-align: center
+}
+.sign-in h2::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    background: #ff6300;
+    width: 40%;
+    height: 2px;
+    margin: 0 auto;
+    left: 102px;
+}
+.edit-form{
+  padding-top:15px
+}

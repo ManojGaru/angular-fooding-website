@@ -1,0 +1,41 @@
+.maxw{
+    max-width: 1170px;
+    margin: 0 auto
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-top: 15px
+}
+.panel-body {
+    padding: 15px;
+    width: 100%
+}
+.info h3 {
+    font-size: 20px;
+    padding: 15px 15px;
+}
+.info_days {
+    background-color: #ffffff !important;
+    float: left;
+    width: 100%;
+}
+.info_days .days_cont {
+    font-size: 13px GothamRounded_Book;
+    margin-bottom: 10px !important;
+}
+.info_days .pull-right p {
+    border-radius: 4px;
+    color: #717171;
+    float: left;
+    font-family: GothamRoundedMedium;
+    margin: 0 0 5px 5px;
+    padding: 3px;
+}
+.clr{
+    clear: both
+}
